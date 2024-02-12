@@ -1,41 +1,23 @@
-/* Estilos para la lista */
-#my-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
+img {
+  max-width: 100%; 
+  height: auto; 
+}
+ *{
+  font-family: 'Creepster', system-ui;
+  font-size: 30px;
+ }
+
+body {
+  background: rgb(107,200,224);
+  background: linear-gradient(90deg, rgba(107,200,224,1) 38%, rgba(44,255,0,0.8855917366946778) 72%);
+  text-align: center;
+  margin: 30px;
+
 }
 
 .list-group-item {
-  width: calc(20% - 20px); /* Ajusta el ancho y deja espacio entre elementos */
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  box-sizing: border-box; /* Incluye el padding en el ancho total del elemento */
-  margin-right: 1%; /* Reducir el margen derecho */
-}
+  border: 1px solid #0b2744; 
+  border-radius: 0.25rem; 
+  margin-bottom: 10px; 
 
-/* Estilos para los elementos del template */
-[data-id='image'] {
-  max-width: 100%;
-  height: auto;
-  max-height: 80px; /* Ajusta la altura máxima de la imagen según tus preferencias */
-}
-
-/* Resto de estilos... */
-
-/* Estilos para los botones */
-.btn-primary,
-.btn-light {
-  margin-right: 10px;
-  background-color: #3498db;
-  color: #232e96;
-  padding: 8px 15px;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-light {
-  background-color: #f1c40f;
-  color: #000;
 }
